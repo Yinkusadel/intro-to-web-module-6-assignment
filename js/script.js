@@ -104,8 +104,31 @@ display.onclick = function myButton() {
       data += `<b>Value : </b>${elem[i].value}&nbsp&nbsp`;
       data += '<br><br>';
     }
-    document.querySelector('#previewFormData').innerHTML = data;
+    document.querySelector('#previewformdata').innerHTML = data;
   } else {
-    document.querySelector('#previewFormData').innerHTML = '<h4>Please Insert Valid Details</h4>';
+    document.querySelector('#previewformdata').innerHTML = '<h4>Please Insert Valid Details</h4>';
   }
 };
+
+//  to target my html
+
+const wind = document.querySelector('#wind');
+wind.onblur = validatewindName;
+
+const stone = document.querySelector('#stone');
+stone.onblur = validatestoneName;
+
+const water = document.querySelector('#water');
+water.onblur = validatewaterName;
+
+const insect = document.querySelector('#insect');
+insect.onblur = validateinsectName;
+
+const love = document.querySelector('#love');
+love.onblur = validateloveName;
+
+const serpent = document.querySelector('#serpent');
+serpent.onblur = validateserpentName;
+
+const flame = document.querySelector('#flame');
+flame.onblur = validateflameName;
