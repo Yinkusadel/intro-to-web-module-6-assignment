@@ -1,6 +1,6 @@
 # Project Name
 
-> An Anime form that made to give the pillars names and validates it
+> An Anime form made to give the pillars names and validates it
 > ![screenshot](app_screenshot.png)
 
 - ### HTML5 elements
