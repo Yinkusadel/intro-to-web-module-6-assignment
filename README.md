@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](intro-to-web-module-6-assignment.netlify.app)
 
 ### Development (Running locally)
 
