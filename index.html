@@ -3,7 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>intro to web week 6</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <h2>Input the name of the HASHIRA of each pillar</h2>
+    <img src="demonslayer.png" alt="demonslayer" id="demonslayer" />
+    <p>
+      This is a simple form about an ANIME made to this pillars give this pillars a name<br />
+      Ya know <br />Lets go!!!
+    </p>
+    <p>
+      input of minmax 3-10 on the pillars is valid <br />
+      input aisde that on the pillars is invalid
+    </p>
+
+    <form action="/action_page.php" name="myForm" id="myform">
+      <label for="wind">Wind pillar:</label>
+      <input
+        onblur="validatewindName()"
+        type="text"
+        id="wind"
+        name="wind"
+        maxlength="10"
+        minlength="3"
+        required
+      />
+      <span class="feedback" id="feedbwindname"></span><br /><br />
+
+      <label for="stone">Stone pillar:</label>
+      <input
+        onblur="validatestoneName()"
+        type="text"
+        id="stone"
+        name="stone"
+        maxlength="10"
+        minlength="3"
+        required
+      />
+      <span class="feedback" id="feedbstonename"></span><br /><br />
+
+      <label for="water">Water pillar:</label>
+      <input
+        onblur="validatewaterName()"
+        type="text"
+        id="water"
+        name="water"
+        maxlength="10"
+        minlength="3"
+        required
+      />
+      <span class="feedback" id="feedbwatername"></span><br /><br />
+
+      <label for="insect">Insect pillar:</label>
+      <input
+        onblur="validateinsectName()"
+        type="text"
+        id="insect"
+        name="insect"
+        maxlength="10"
+        minlength="3"
+        required
+      />
+      <span class="feedback" id="feedbinsectname"></span><br /><br />
+
+      <label for="love">Love pillar:</label>
+      <input
+        onblur="validateloveName()"
+        type="text"
+        id="love"
+        name="love"
+        maxlength="10"
+        minlength="3"
+        required
+      />
+      <span class="feedback" id="feedblovename"></span><br /><br />
+
+      <label for="serpent">Serpent pillar:</label>
+      <input
+        onblur="validateserpentName()"
+        type="text"
+        id="serpent"
+        name="serpent"
+        maxlength="10"
+        minlength="3"
+        required
+      />
+      <span class="feedback" id="feedbserpentname"></span><br /><br />
+
+      <label for="flame">Flame pillar:</label>
+      <input
+        onblur="validateflameName()"
+        type="text"
+        id="flame"
+        name="flame"
+        maxlength="10"
+        minlength="3"
+        required
+      />
+      <span class="feedback" id="feedbflamename"></span><br /><br />
+
+      <label for="email">Enter your email:</label>
+      <input
+        pattern="^\S+@\S+\.\S+$"
+        onblur="validateEmailAndType()"
+        type="email"
+        id="email"
+        name="email"
+        required
+      />
+      <span class="feedback" id="feedbemail"></span><br /><br />
+
+      <input type="button" value="display" id="display" onclick="areAllValid()" />
+    </form>
+
+    <div id="previewFormData">
+      <h4>Show all data if input correctly</h4>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
