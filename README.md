@@ -30,7 +30,7 @@
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/Yinkusadel/intro-to-web-module-6-assignment/pull/1
 
 ```
 
