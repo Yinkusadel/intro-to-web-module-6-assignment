@@ -1,27 +1,36 @@
 # Project Name
 
-> One paragraph statement about the project.
+> An Anime form made to give the pillars names and validates it
+> ![screenshot](app_screenshot.png)
 
-![screenshot](./app_screenshot.png)
+- ### HTML5 elements
+  - **Form element like**
+    `form` `input`
+- ### CSS properties
+  - CSS background for page aesthetic using `background-color`
+  - hover
+- ### JS
+  - query selector
+  - function
+  - length property
+  - pattern attribute
+  - onclick , onblur
+- ### Linters
+  - [prettier](prettier),
+  - [stylelint](stylelint).
 
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages,
-- frameworks,
-- technologies used
+### GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](intro-to-web-module-6-assignment.netlify.app)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/Yinkusadel/intro-to-web-module-6-assignment/pull/1
 
 ```
 
@@ -70,9 +79,10 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@yinkusadel](https://github.com/yinkusadel)
+- Twitter: [@HashiraAdel](https://twitter.com/HashiraAdel)
+- Linkedin: [@adeleyeolayinka](https://www.linkedin.com/in/adeleye-olayinka/)
+- FreeCodeCamp: [@yinkusadel](https://www.freecodecamp.org/Yinkusadel)
 
 ## 🤝 Contributing
 
@@ -86,9 +96,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- Coursera: [intro-to-web-coursera](https://www.coursera.org/learn/web-development/peer/r44HA/complete-html-form)
 
 ## 📝 License
 
